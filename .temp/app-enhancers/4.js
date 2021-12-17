@@ -1,0 +1,1 @@
+export { default } from "d:\\xingkong\\vuepress-theme-vdoing\\node_modules\\vuepress-plugin-comment\\comment.js"
