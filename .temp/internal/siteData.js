@@ -44,8 +44,9 @@ export const siteData = {
       },
       "regularPath": "/01.skill/",
       "relativePath": "01.skill/README.md",
-      "key": "v-1b6f3cd0",
-      "path": "/pages/c80423/"
+      "key": "v-275af9f9",
+      "path": "/pages/c80423/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "homeEducation",
@@ -62,8 +63,28 @@ export const siteData = {
       },
       "regularPath": "/02.exist/01.homeEducation.html",
       "relativePath": "02.exist/01.homeEducation.md",
-      "key": "v-6462e80a",
-      "path": "/pages/473de2/"
+      "key": "v-736569b2",
+      "path": "/pages/473de2/",
+      "lastUpdated": "2021/12/17, 16:26:59"
+    },
+    {
+      "title": "a",
+      "frontmatter": {
+        "title": "a",
+        "date": "2021-12-17T14:59:30.000Z",
+        "permalink": "/pages/961b62/",
+        "categories": [
+          "skill"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/01.skill/a.html",
+      "relativePath": "01.skill/a.md",
+      "key": "v-6016b69c",
+      "path": "/pages/961b62/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "poorBusy",
@@ -80,8 +101,9 @@ export const siteData = {
       },
       "regularPath": "/02.exist/02.poorBusy.html",
       "relativePath": "02.exist/02.poorBusy.md",
-      "key": "v-6b128321",
-      "path": "/pages/a9a017/"
+      "key": "v-538c6cd0",
+      "path": "/pages/a9a017/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "useLess",
@@ -98,26 +120,9 @@ export const siteData = {
       },
       "regularPath": "/02.exist/03.useLess.html",
       "relativePath": "02.exist/03.useLess.md",
-      "key": "v-561a28ca",
-      "path": "/pages/05ce71/"
-    },
-    {
-      "title": "tecProgress",
-      "frontmatter": {
-        "title": "tecProgress",
-        "date": "2021-12-17T14:59:30.000Z",
-        "permalink": "/pages/1e9399/",
-        "categories": [
-          "exist"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/02.exist/05.tecProgress.html",
-      "relativePath": "02.exist/05.tecProgress.md",
-      "key": "v-5e93b2bb",
-      "path": "/pages/1e9399/"
+      "key": "v-475763d2",
+      "path": "/pages/05ce71/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "remoteWork",
@@ -134,8 +139,47 @@ export const siteData = {
       },
       "regularPath": "/02.exist/04.remoteWork.html",
       "relativePath": "02.exist/04.remoteWork.md",
-      "key": "v-915fe926",
-      "path": "/pages/bd5963/"
+      "key": "v-17f13e64",
+      "path": "/pages/bd5963/",
+      "lastUpdated": "2021/12/17, 16:26:59"
+    },
+    {
+      "title": "tecProgress",
+      "frontmatter": {
+        "title": "tecProgress",
+        "date": "2021-12-17T14:59:30.000Z",
+        "permalink": "/pages/1e9399/",
+        "categories": [
+          "exist"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/02.exist/05.tecProgress.html",
+      "relativePath": "02.exist/05.tecProgress.md",
+      "key": "v-1bb403f2",
+      "path": "/pages/1e9399/",
+      "lastUpdated": "2021/12/17, 16:26:59"
+    },
+    {
+      "title": "timeAndMoney",
+      "frontmatter": {
+        "title": "timeAndMoney",
+        "date": "2021-12-17T14:59:30.000Z",
+        "permalink": "/pages/604427/",
+        "categories": [
+          "exist"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/02.exist/06.timeAndMoney.html",
+      "relativePath": "02.exist/06.timeAndMoney.md",
+      "key": "v-6b62b5aa",
+      "path": "/pages/604427/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "README",
@@ -152,8 +196,9 @@ export const siteData = {
       },
       "regularPath": "/02.exist/",
       "relativePath": "02.exist/README.md",
-      "key": "v-4954c030",
-      "path": "/pages/93146c/"
+      "key": "v-55407d59",
+      "path": "/pages/93146c/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "README",
@@ -170,8 +215,9 @@ export const siteData = {
       },
       "regularPath": "/03.readList/",
       "relativePath": "03.readList/README.md",
-      "key": "v-f4907b0c",
-      "path": "/pages/c0a868/"
+      "key": "v-28013ce3",
+      "path": "/pages/c0a868/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "a",
@@ -188,8 +234,9 @@ export const siteData = {
       },
       "regularPath": "/03.readList/a.html",
       "relativePath": "03.readList/a.md",
-      "key": "v-1ad193be",
-      "path": "/pages/8f33b0/"
+      "key": "v-cd05ee50",
+      "path": "/pages/8f33b0/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "markDown",
@@ -206,7 +253,7 @@ export const siteData = {
       },
       "regularPath": "/04.website/01.markDown.html",
       "relativePath": "04.website/01.markDown.md",
-      "key": "v-4a2d526b",
+      "key": "v-aa62f53c",
       "path": "/pages/0840ec/",
       "headers": [
         {
@@ -229,7 +276,8 @@ export const siteData = {
           "title": "使用3个或者多个“*”的分割线",
           "slug": "使用3个或者多个-的分割线"
         }
-      ]
+      ],
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "README",
@@ -246,8 +294,23 @@ export const siteData = {
       },
       "regularPath": "/04.website/",
       "relativePath": "04.website/README.md",
-      "key": "v-6ef01030",
-      "path": "/pages/692ee8/"
+      "key": "v-1211de4e",
+      "path": "/pages/692ee8/",
+      "lastUpdated": "2021/12/17, 16:26:59"
+    },
+    {
+      "title": "归档",
+      "frontmatter": {
+        "archivesPage": true,
+        "title": "归档",
+        "permalink": "/archives/",
+        "article": false
+      },
+      "regularPath": "/@pages/archivesPage.html",
+      "relativePath": "@pages/archivesPage.md",
+      "key": "v-4f0314d2",
+      "path": "/archives/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "a",
@@ -264,8 +327,9 @@ export const siteData = {
       },
       "regularPath": "/04.website/a.html",
       "relativePath": "04.website/a.md",
-      "key": "v-5604fba1",
-      "path": "/pages/af4787/"
+      "key": "v-6243dfd0",
+      "path": "/pages/af4787/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "README",
@@ -282,21 +346,23 @@ export const siteData = {
       },
       "regularPath": "/05.about/",
       "relativePath": "05.about/README.md",
-      "key": "v-363664d0",
-      "path": "/pages/d2a2d6/"
+      "key": "v-422221f9",
+      "path": "/pages/d2a2d6/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
-      "title": "归档",
+      "title": "分类",
       "frontmatter": {
-        "archivesPage": true,
-        "title": "归档",
-        "permalink": "/archives/",
+        "categoriesPage": true,
+        "title": "分类",
+        "permalink": "/categories/",
         "article": false
       },
-      "regularPath": "/@pages/archivesPage.html",
-      "relativePath": "@pages/archivesPage.md",
-      "key": "v-46c2c6ca",
-      "path": "/archives/"
+      "regularPath": "/@pages/categoriesPage.html",
+      "relativePath": "@pages/categoriesPage.md",
+      "key": "v-b130bc9c",
+      "path": "/categories/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "标签",
@@ -308,8 +374,9 @@ export const siteData = {
       },
       "regularPath": "/@pages/tagsPage.html",
       "relativePath": "@pages/tagsPage.md",
-      "key": "v-4b99781b",
-      "path": "/tags/"
+      "key": "v-dd4dd15c",
+      "path": "/tags/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
       "title": "Home",
@@ -343,57 +410,9 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "index.md",
-      "key": "v-ca536b72",
-      "path": "/"
-    },
-    {
-      "title": "分类",
-      "frontmatter": {
-        "categoriesPage": true,
-        "title": "分类",
-        "permalink": "/categories/",
-        "article": false
-      },
-      "regularPath": "/@pages/categoriesPage.html",
-      "relativePath": "@pages/categoriesPage.md",
-      "key": "v-68f81cfb",
-      "path": "/categories/"
-    },
-    {
-      "title": "timeAndMoney",
-      "frontmatter": {
-        "title": "timeAndMoney",
-        "date": "2021-12-17T14:59:30.000Z",
-        "permalink": "/pages/604427/",
-        "categories": [
-          "exist"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/02.exist/06.timeAndMoney.html",
-      "relativePath": "02.exist/06.timeAndMoney.md",
-      "key": "v-7511d633",
-      "path": "/pages/604427/"
-    },
-    {
-      "title": "a",
-      "frontmatter": {
-        "title": "a",
-        "date": "2021-12-17T14:59:30.000Z",
-        "permalink": "/pages/961b62/",
-        "categories": [
-          "skill"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/01.skill/a.html",
-      "relativePath": "01.skill/a.md",
-      "key": "v-5e68bcbb",
-      "path": "/pages/961b62/"
+      "key": "v-2b4693be",
+      "path": "/",
+      "lastUpdated": "2021/12/17, 16:26:59"
     }
   ],
   "themeConfig": {

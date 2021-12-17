@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "d:\\xingkong\\vuepress-theme-vdoing\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "d:\\xingkong\\vuepress-theme-xing\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-1b6f3cd0",
+    name: "v-275af9f9",
     path: "/pages/c80423/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1b6f3cd0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-275af9f9").then(next)
     },
   },
   {
@@ -25,11 +25,11 @@ export const routes = [
     redirect: "/pages/c80423/"
   },
   {
-    name: "v-6462e80a",
+    name: "v-736569b2",
     path: "/pages/473de2/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6462e80a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-736569b2").then(next)
     },
   },
   {
@@ -41,11 +41,27 @@ export const routes = [
     redirect: "/pages/473de2/"
   },
   {
-    name: "v-6b128321",
+    name: "v-6016b69c",
+    path: "/pages/961b62/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6016b69c").then(next)
+    },
+  },
+  {
+    path: "/pages/961b62/index.html",
+    redirect: "/pages/961b62/"
+  },
+  {
+    path: "/01.skill/a.html",
+    redirect: "/pages/961b62/"
+  },
+  {
+    name: "v-538c6cd0",
     path: "/pages/a9a017/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6b128321").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-538c6cd0").then(next)
     },
   },
   {
@@ -57,11 +73,11 @@ export const routes = [
     redirect: "/pages/a9a017/"
   },
   {
-    name: "v-561a28ca",
+    name: "v-475763d2",
     path: "/pages/05ce71/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-561a28ca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-475763d2").then(next)
     },
   },
   {
@@ -73,27 +89,11 @@ export const routes = [
     redirect: "/pages/05ce71/"
   },
   {
-    name: "v-5e93b2bb",
-    path: "/pages/1e9399/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5e93b2bb").then(next)
-    },
-  },
-  {
-    path: "/pages/1e9399/index.html",
-    redirect: "/pages/1e9399/"
-  },
-  {
-    path: "/02.exist/05.tecProgress.html",
-    redirect: "/pages/1e9399/"
-  },
-  {
-    name: "v-915fe926",
+    name: "v-17f13e64",
     path: "/pages/bd5963/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-915fe926").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-17f13e64").then(next)
     },
   },
   {
@@ -105,183 +105,27 @@ export const routes = [
     redirect: "/pages/bd5963/"
   },
   {
-    name: "v-4954c030",
-    path: "/pages/93146c/",
+    name: "v-1bb403f2",
+    path: "/pages/1e9399/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4954c030").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1bb403f2").then(next)
     },
   },
   {
-    path: "/pages/93146c/index.html",
-    redirect: "/pages/93146c/"
+    path: "/pages/1e9399/index.html",
+    redirect: "/pages/1e9399/"
   },
   {
-    path: "/02.exist/",
-    redirect: "/pages/93146c/"
+    path: "/02.exist/05.tecProgress.html",
+    redirect: "/pages/1e9399/"
   },
   {
-    name: "v-f4907b0c",
-    path: "/pages/c0a868/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f4907b0c").then(next)
-    },
-  },
-  {
-    path: "/pages/c0a868/index.html",
-    redirect: "/pages/c0a868/"
-  },
-  {
-    path: "/03.readList/",
-    redirect: "/pages/c0a868/"
-  },
-  {
-    name: "v-1ad193be",
-    path: "/pages/8f33b0/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1ad193be").then(next)
-    },
-  },
-  {
-    path: "/pages/8f33b0/index.html",
-    redirect: "/pages/8f33b0/"
-  },
-  {
-    path: "/03.readList/a.html",
-    redirect: "/pages/8f33b0/"
-  },
-  {
-    name: "v-4a2d526b",
-    path: "/pages/0840ec/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4a2d526b").then(next)
-    },
-  },
-  {
-    path: "/pages/0840ec/index.html",
-    redirect: "/pages/0840ec/"
-  },
-  {
-    path: "/04.website/01.markDown.html",
-    redirect: "/pages/0840ec/"
-  },
-  {
-    name: "v-6ef01030",
-    path: "/pages/692ee8/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6ef01030").then(next)
-    },
-  },
-  {
-    path: "/pages/692ee8/index.html",
-    redirect: "/pages/692ee8/"
-  },
-  {
-    path: "/04.website/",
-    redirect: "/pages/692ee8/"
-  },
-  {
-    name: "v-5604fba1",
-    path: "/pages/af4787/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5604fba1").then(next)
-    },
-  },
-  {
-    path: "/pages/af4787/index.html",
-    redirect: "/pages/af4787/"
-  },
-  {
-    path: "/04.website/a.html",
-    redirect: "/pages/af4787/"
-  },
-  {
-    name: "v-363664d0",
-    path: "/pages/d2a2d6/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-363664d0").then(next)
-    },
-  },
-  {
-    path: "/pages/d2a2d6/index.html",
-    redirect: "/pages/d2a2d6/"
-  },
-  {
-    path: "/05.about/",
-    redirect: "/pages/d2a2d6/"
-  },
-  {
-    name: "v-46c2c6ca",
-    path: "/archives/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-46c2c6ca").then(next)
-    },
-  },
-  {
-    path: "/archives/index.html",
-    redirect: "/archives/"
-  },
-  {
-    path: "/@pages/archivesPage.html",
-    redirect: "/archives/"
-  },
-  {
-    name: "v-4b99781b",
-    path: "/tags/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4b99781b").then(next)
-    },
-  },
-  {
-    path: "/tags/index.html",
-    redirect: "/tags/"
-  },
-  {
-    path: "/@pages/tagsPage.html",
-    redirect: "/tags/"
-  },
-  {
-    name: "v-ca536b72",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ca536b72").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
-    name: "v-68f81cfb",
-    path: "/categories/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-68f81cfb").then(next)
-    },
-  },
-  {
-    path: "/categories/index.html",
-    redirect: "/categories/"
-  },
-  {
-    path: "/@pages/categoriesPage.html",
-    redirect: "/categories/"
-  },
-  {
-    name: "v-7511d633",
+    name: "v-6b62b5aa",
     path: "/pages/604427/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7511d633").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6b62b5aa").then(next)
     },
   },
   {
@@ -293,20 +137,176 @@ export const routes = [
     redirect: "/pages/604427/"
   },
   {
-    name: "v-5e68bcbb",
-    path: "/pages/961b62/",
+    name: "v-55407d59",
+    path: "/pages/93146c/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5e68bcbb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-55407d59").then(next)
     },
   },
   {
-    path: "/pages/961b62/index.html",
-    redirect: "/pages/961b62/"
+    path: "/pages/93146c/index.html",
+    redirect: "/pages/93146c/"
   },
   {
-    path: "/01.skill/a.html",
-    redirect: "/pages/961b62/"
+    path: "/02.exist/",
+    redirect: "/pages/93146c/"
+  },
+  {
+    name: "v-28013ce3",
+    path: "/pages/c0a868/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-28013ce3").then(next)
+    },
+  },
+  {
+    path: "/pages/c0a868/index.html",
+    redirect: "/pages/c0a868/"
+  },
+  {
+    path: "/03.readList/",
+    redirect: "/pages/c0a868/"
+  },
+  {
+    name: "v-cd05ee50",
+    path: "/pages/8f33b0/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-cd05ee50").then(next)
+    },
+  },
+  {
+    path: "/pages/8f33b0/index.html",
+    redirect: "/pages/8f33b0/"
+  },
+  {
+    path: "/03.readList/a.html",
+    redirect: "/pages/8f33b0/"
+  },
+  {
+    name: "v-aa62f53c",
+    path: "/pages/0840ec/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-aa62f53c").then(next)
+    },
+  },
+  {
+    path: "/pages/0840ec/index.html",
+    redirect: "/pages/0840ec/"
+  },
+  {
+    path: "/04.website/01.markDown.html",
+    redirect: "/pages/0840ec/"
+  },
+  {
+    name: "v-1211de4e",
+    path: "/pages/692ee8/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1211de4e").then(next)
+    },
+  },
+  {
+    path: "/pages/692ee8/index.html",
+    redirect: "/pages/692ee8/"
+  },
+  {
+    path: "/04.website/",
+    redirect: "/pages/692ee8/"
+  },
+  {
+    name: "v-4f0314d2",
+    path: "/archives/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4f0314d2").then(next)
+    },
+  },
+  {
+    path: "/archives/index.html",
+    redirect: "/archives/"
+  },
+  {
+    path: "/@pages/archivesPage.html",
+    redirect: "/archives/"
+  },
+  {
+    name: "v-6243dfd0",
+    path: "/pages/af4787/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6243dfd0").then(next)
+    },
+  },
+  {
+    path: "/pages/af4787/index.html",
+    redirect: "/pages/af4787/"
+  },
+  {
+    path: "/04.website/a.html",
+    redirect: "/pages/af4787/"
+  },
+  {
+    name: "v-422221f9",
+    path: "/pages/d2a2d6/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-422221f9").then(next)
+    },
+  },
+  {
+    path: "/pages/d2a2d6/index.html",
+    redirect: "/pages/d2a2d6/"
+  },
+  {
+    path: "/05.about/",
+    redirect: "/pages/d2a2d6/"
+  },
+  {
+    name: "v-b130bc9c",
+    path: "/categories/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b130bc9c").then(next)
+    },
+  },
+  {
+    path: "/categories/index.html",
+    redirect: "/categories/"
+  },
+  {
+    path: "/@pages/categoriesPage.html",
+    redirect: "/categories/"
+  },
+  {
+    name: "v-dd4dd15c",
+    path: "/tags/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-dd4dd15c").then(next)
+    },
+  },
+  {
+    path: "/tags/index.html",
+    redirect: "/tags/"
+  },
+  {
+    path: "/@pages/tagsPage.html",
+    redirect: "/tags/"
+  },
+  {
+    name: "v-2b4693be",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2b4693be").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
   },
   {
     path: '*',

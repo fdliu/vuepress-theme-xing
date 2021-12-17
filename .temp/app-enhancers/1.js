@@ -1,1 +1,1 @@
-export { default } from "d:\\xingkong\\vuepress-theme-vdoing\\theme-vdoing\\enhanceApp.js"
+export { default } from "d:\\xingkong\\vuepress-theme-xing\\theme-vdoing\\enhanceApp.js"
