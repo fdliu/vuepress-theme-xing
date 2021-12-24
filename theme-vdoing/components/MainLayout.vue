@@ -18,14 +18,6 @@
   position relative
   display flex
   .main-left
-    flex 1
-    // width 72%
-    .theme-vdoing-content.card-box
-      padding 1rem 1.5rem
-      margin-bottom 0.9rem
-    .home-content
-      padding 1rem 1.5rem 0
-  .main-right
     >*
       width 245px
       box-sizing border-box
@@ -35,6 +27,15 @@
       margin 0 0 0.9rem 0.9rem
       padding-top 0.95rem
       padding-bottom 0.95rem
+  .main-right
+    flex 1
+      // width 72%
+      .theme-vdoing-content.card-box
+        padding 1rem 1.5rem
+        margin-bottom 0.9rem
+      .home-content
+        padding 1rem 1.5rem 0
+    
 // 719px以下
 @media (max-width $MQMobile)
   .main-wrapper
@@ -42,7 +43,7 @@
     padding 0
     display block
     .main-left
-      width 100%
+       width 100%
       .post-list
         margin-bottom 3rem
         .post
@@ -50,10 +51,10 @@
       .pagination
         margin-bottom 3rem
     .main-right
-      .blogger-wrapper
-        display none
-      .card-box
-        margin 0 0 0.9rem 0
-        border-radius 0
-        width 100%
+        .blogger-wrapper
+          display none
+        .card-box
+          margin 0 0 0.9rem 0
+          border-radius 0
+          width 100%
 </style>

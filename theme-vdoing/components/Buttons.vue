@@ -205,8 +205,8 @@ export default {
   box-shadow 0 0 15px #FFE089 !important
 .buttons
   position fixed
-  right 2rem
-  bottom 2.5rem
+  right 15rem
+  bottom 5.5rem
   z-index 11
   @media (max-width $MQNarrow)
     right 1rem

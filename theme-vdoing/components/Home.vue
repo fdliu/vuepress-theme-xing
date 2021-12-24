@@ -110,7 +110,7 @@
     <!-- banner块 e -->
 
     <MainLayout>
-      <template #mainLeft>
+      <template  #mainRight>
         <!-- 简约版文章列表 -->
         <UpdateArticle
           class="card-box"
@@ -135,7 +135,7 @@
         <Content class="theme-vdoing-content custom card-box" />
       </template>
 
-      <template #mainRight>
+      <template #mainLeft>
         <BloggerBar v-if="$themeConfig.blogger" />
         <CategoriesBar
           v-if="
