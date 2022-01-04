@@ -49,25 +49,6 @@ export const siteData = {
       "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
-      "title": "homeEducation",
-      "frontmatter": {
-        "title": "homeEducation",
-        "date": "2021-12-17T14:59:30.000Z",
-        "permalink": "/pages/473de2/",
-        "categories": [
-          "exist"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/02.exist/01.homeEducation.html",
-      "relativePath": "02.exist/01.homeEducation.md",
-      "key": "v-736569b2",
-      "path": "/pages/473de2/",
-      "lastUpdated": "2021/12/17, 16:26:59"
-    },
-    {
       "title": "a",
       "frontmatter": {
         "title": "a",
@@ -103,6 +84,25 @@ export const siteData = {
       "relativePath": "02.exist/02.poorBusy.md",
       "key": "v-538c6cd0",
       "path": "/pages/a9a017/",
+      "lastUpdated": "2021/12/17, 16:26:59"
+    },
+    {
+      "title": "homeEducation",
+      "frontmatter": {
+        "title": "homeEducation",
+        "date": "2021-12-17T14:59:30.000Z",
+        "permalink": "/pages/473de2/",
+        "categories": [
+          "exist"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/02.exist/01.homeEducation.html",
+      "relativePath": "02.exist/01.homeEducation.md",
+      "key": "v-736569b2",
+      "path": "/pages/473de2/",
       "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
@@ -163,25 +163,6 @@ export const siteData = {
       "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
-      "title": "timeAndMoney",
-      "frontmatter": {
-        "title": "timeAndMoney",
-        "date": "2021-12-17T14:59:30.000Z",
-        "permalink": "/pages/604427/",
-        "categories": [
-          "exist"
-        ],
-        "tags": [
-          null
-        ]
-      },
-      "regularPath": "/02.exist/06.timeAndMoney.html",
-      "relativePath": "02.exist/06.timeAndMoney.md",
-      "key": "v-6b62b5aa",
-      "path": "/pages/604427/",
-      "lastUpdated": "2021/12/17, 16:26:59"
-    },
-    {
       "title": "README",
       "frontmatter": {
         "title": "README",
@@ -198,6 +179,25 @@ export const siteData = {
       "relativePath": "02.exist/README.md",
       "key": "v-55407d59",
       "path": "/pages/93146c/",
+      "lastUpdated": "2021/12/17, 16:26:59"
+    },
+    {
+      "title": "timeAndMoney",
+      "frontmatter": {
+        "title": "timeAndMoney",
+        "date": "2021-12-17T14:59:30.000Z",
+        "permalink": "/pages/604427/",
+        "categories": [
+          "exist"
+        ],
+        "tags": [
+          null
+        ]
+      },
+      "regularPath": "/02.exist/06.timeAndMoney.html",
+      "relativePath": "02.exist/06.timeAndMoney.md",
+      "key": "v-6b62b5aa",
+      "path": "/pages/604427/",
       "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
@@ -299,20 +299,6 @@ export const siteData = {
       "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
-      "title": "归档",
-      "frontmatter": {
-        "archivesPage": true,
-        "title": "归档",
-        "permalink": "/archives/",
-        "article": false
-      },
-      "regularPath": "/@pages/archivesPage.html",
-      "relativePath": "@pages/archivesPage.md",
-      "key": "v-4f0314d2",
-      "path": "/archives/",
-      "lastUpdated": "2021/12/17, 16:26:59"
-    },
-    {
       "title": "a",
       "frontmatter": {
         "title": "a",
@@ -348,6 +334,20 @@ export const siteData = {
       "relativePath": "05.about/README.md",
       "key": "v-422221f9",
       "path": "/pages/d2a2d6/",
+      "lastUpdated": "2021/12/17, 16:26:59"
+    },
+    {
+      "title": "归档",
+      "frontmatter": {
+        "archivesPage": true,
+        "title": "归档",
+        "permalink": "/archives/",
+        "article": false
+      },
+      "regularPath": "/@pages/archivesPage.html",
+      "relativePath": "@pages/archivesPage.md",
+      "key": "v-4f0314d2",
+      "path": "/archives/",
       "lastUpdated": "2021/12/17, 16:26:59"
     },
     {
@@ -512,9 +512,9 @@ export const siteData = {
     "editLinks": true,
     "editLinkText": "编辑",
     "bodyBgImg": [
-      "https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg",
-      "https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg",
-      "https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg"
+      "https://cdn.jsdelivr.net/gh/fdliu/image_store/blog/20200507175828.jpeg",
+      "https://cdn.jsdelivr.net/gh/fdliu/image_store/blog/20200507175845.jpeg",
+      "https://cdn.jsdelivr.net/gh/fdliu/image_store/blog/20200507175846.jpeg"
     ],
     "bodyBgImgOpacity": 0.5,
     "pageButton": false,
@@ -561,7 +561,7 @@ export const siteData = {
       ]
     },
     "blogger": {
-      "avatar": "https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg",
+      "avatar": "https://cdn.jsdelivr.net/gh/fdliu/image_store/blog/20200103123203.jpg",
       "name": "Xing Kong",
       "slogan": "一个萝卜"
     },
@@ -570,7 +570,7 @@ export const siteData = {
         {
           "iconClass": "icon-youjian",
           "title": "发邮件",
-          "link": "mailto:894072666@qq.com"
+          "link": "mailto:493884221@qq.com"
         },
         {
           "iconClass": "icon-github",

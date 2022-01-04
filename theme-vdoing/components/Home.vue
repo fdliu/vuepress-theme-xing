@@ -110,7 +110,7 @@
     <!-- banner块 e -->
 
     <MainLayout>
-      <template #mainLeft>
+      <template  #mainLeft>
         <!-- 简约版文章列表 -->
         <UpdateArticle
           class="card-box"

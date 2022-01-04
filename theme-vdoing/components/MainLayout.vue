@@ -1,12 +1,14 @@
 <template>
   <div class="main-wrapper">
+    <div class="main-right">
+      <slot name="mainRight" />
+    </div>
+
     <div class="main-left">
       <slot name="mainLeft" />
     </div>
 
-    <div class="main-right">
-      <slot name="mainRight" />
-    </div>
+    
   </div>
 </template>
 <style lang="stylus">
@@ -32,7 +34,7 @@
       @media (max-width 900px)
         width 235px
     .card-box
-      margin 0 0 0.9rem 0.9rem
+      margin 0 0.9rem 0.9rem 0;
       padding-top 0.95rem
       padding-bottom 0.95rem
 // 719px以下
@@ -53,7 +55,7 @@
       .blogger-wrapper
         display none
       .card-box
-        margin 0 0 0.9rem 0
+        margin 0 0.9rem 0.9rem 0;
         border-radius 0
         width 100%
 </style>

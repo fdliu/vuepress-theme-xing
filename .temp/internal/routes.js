@@ -25,22 +25,6 @@ export const routes = [
     redirect: "/pages/c80423/"
   },
   {
-    name: "v-736569b2",
-    path: "/pages/473de2/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-736569b2").then(next)
-    },
-  },
-  {
-    path: "/pages/473de2/index.html",
-    redirect: "/pages/473de2/"
-  },
-  {
-    path: "/02.exist/01.homeEducation.html",
-    redirect: "/pages/473de2/"
-  },
-  {
     name: "v-6016b69c",
     path: "/pages/961b62/",
     component: GlobalLayout,
@@ -71,6 +55,22 @@ export const routes = [
   {
     path: "/02.exist/02.poorBusy.html",
     redirect: "/pages/a9a017/"
+  },
+  {
+    name: "v-736569b2",
+    path: "/pages/473de2/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-736569b2").then(next)
+    },
+  },
+  {
+    path: "/pages/473de2/index.html",
+    redirect: "/pages/473de2/"
+  },
+  {
+    path: "/02.exist/01.homeEducation.html",
+    redirect: "/pages/473de2/"
   },
   {
     name: "v-475763d2",
@@ -121,22 +121,6 @@ export const routes = [
     redirect: "/pages/1e9399/"
   },
   {
-    name: "v-6b62b5aa",
-    path: "/pages/604427/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6b62b5aa").then(next)
-    },
-  },
-  {
-    path: "/pages/604427/index.html",
-    redirect: "/pages/604427/"
-  },
-  {
-    path: "/02.exist/06.timeAndMoney.html",
-    redirect: "/pages/604427/"
-  },
-  {
     name: "v-55407d59",
     path: "/pages/93146c/",
     component: GlobalLayout,
@@ -151,6 +135,22 @@ export const routes = [
   {
     path: "/02.exist/",
     redirect: "/pages/93146c/"
+  },
+  {
+    name: "v-6b62b5aa",
+    path: "/pages/604427/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6b62b5aa").then(next)
+    },
+  },
+  {
+    path: "/pages/604427/index.html",
+    redirect: "/pages/604427/"
+  },
+  {
+    path: "/02.exist/06.timeAndMoney.html",
+    redirect: "/pages/604427/"
   },
   {
     name: "v-28013ce3",
@@ -217,22 +217,6 @@ export const routes = [
     redirect: "/pages/692ee8/"
   },
   {
-    name: "v-4f0314d2",
-    path: "/archives/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4f0314d2").then(next)
-    },
-  },
-  {
-    path: "/archives/index.html",
-    redirect: "/archives/"
-  },
-  {
-    path: "/@pages/archivesPage.html",
-    redirect: "/archives/"
-  },
-  {
     name: "v-6243dfd0",
     path: "/pages/af4787/",
     component: GlobalLayout,
@@ -263,6 +247,22 @@ export const routes = [
   {
     path: "/05.about/",
     redirect: "/pages/d2a2d6/"
+  },
+  {
+    name: "v-4f0314d2",
+    path: "/archives/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4f0314d2").then(next)
+    },
+  },
+  {
+    path: "/archives/index.html",
+    redirect: "/archives/"
+  },
+  {
+    path: "/@pages/archivesPage.html",
+    redirect: "/archives/"
   },
   {
     name: "v-b130bc9c",
