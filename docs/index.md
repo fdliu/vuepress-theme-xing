@@ -1,6 +1,6 @@
 ---
 home: true
-# heroImage: /img/web.png
+# heroImage: /img/xing.png
 heroText: Xing Kong's blog
 tagline: Web前端技术博客，每天进步一点点。
 actionText: 立刻进入 →

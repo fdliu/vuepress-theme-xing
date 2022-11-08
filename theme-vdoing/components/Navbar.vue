@@ -88,19 +88,23 @@ function css (el, property) {
 </script>
 
 <style lang="stylus">
-$navbar-vertical-padding = 0.7rem
-$navbar-horizontal-padding = 1.5rem
+$navbar-vertical-padding = 0.2rem
+$navbar-horizontal-padding = 1rem
 .navbar
   padding $navbar-vertical-padding $navbar-horizontal-padding
-  line-height $navbarHeight - 1.4rem
+  // line-height $navbarHeight - 1.4rem
   transition transform 0.3s
+  a{
+    line-height: $navbarHeight - 0.4rem;
+  }
   a, span, img
     display inline-block
   .logo
-    height $navbarHeight - 1.4rem
+    height $navbarHeight - 0.4rem
     min-width $navbarHeight - 1.4rem
     margin-right 0.8rem
     vertical-align top
+    border-radius: 50%
   .site-name
     font-size 1.3rem
     font-weight 600
