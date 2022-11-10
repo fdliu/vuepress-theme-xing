@@ -1,9 +1,6 @@
-## 这个主题可以做什么？
-* 案例1：[知识库兼博客站](https://fdliu.com/)
-* 案例2：[仅博客站](https://fdliu.github.io/vdoing-demo-blog/)
-* 案例3：[仅知识库](https://fdliu.github.io/vdoing-demo-repository/)
-* 案例4：[文档站](https://fdliu.github.io/vuepress-theme-xing-doc/)
+::: tip 欢迎来到斑马庄园博客
 
+©斑马庄园版权所有
 
 ## 快速上手
 

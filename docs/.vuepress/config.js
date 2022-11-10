@@ -75,9 +75,8 @@ module.exports = {
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
     bodyBgImg: [
-      'https://cdn.jsdelivr.net/gh/fdliu/image_store/blog/20200507175828.jpeg',
-      'https://cdn.jsdelivr.net/gh/fdliu/image_store/blog/20200507175845.jpeg',
-      'https://cdn.jsdelivr.net/gh/fdliu/image_store/blog/20200507175846.jpeg'
+      '/img/bg.jpeg',
+      '/img/bg.jpg'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
     bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
@@ -100,10 +99,10 @@ module.exports = {
     sidebar: 'structuring',
 
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    // author: {
-    //   name: 'fdliu', // 必需
-    //   link: 'https://github.com/fdliu', // 可选的
-    // },
+    author: {
+      name: 'fdliu', // 必需
+      link: 'https://github.com/fdliu', // 可选的
+    },
 
     // 博主信息，显示在首页侧边栏
     blogger: {
@@ -202,7 +201,7 @@ module.exports = {
           },
           {
             title: '通过百度搜索本站的',
-            frontUrl: 'https://www.baidu.com/s?wd=site%3Afdliu.com%20',
+            frontUrl: 'https://www.baidu.com/s?wd=',
           },
         ],
       },

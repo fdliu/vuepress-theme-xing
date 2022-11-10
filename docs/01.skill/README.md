@@ -10,9 +10,9 @@ tags:
 
 ::: tip <font face="微软雅黑" color="#ea163f" size="4">技能篇</font>
 
-[几种前端数据存储方式（记录）](/page/webStore/)<br/>
+[几种前端数据存储方式（记录）](/pages/webStore/)<br/>
 
-[初识indexedDB数据库](/skill/)<br/>
+[初识indexedDB数据库](/pages/indexDB/)<br/>
 
 [javaScript高阶函数map、reduce、sort](/skill/)<br/>
 
