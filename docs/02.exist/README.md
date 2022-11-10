@@ -1,7 +1,7 @@
 ---
 title: README
 date: 2021-12-17 14:59:30
-permalink: /pages/93146c/
+permalink: /pages/exist/
 categories:
   - exist
 tags:

@@ -12,13 +12,13 @@
 
         <div class="content-wrapper">
           <RightMenu v-if="showRightMenu" />
-          <h1 v-if="showTitle">
+          <h2 v-if="showTitle">
             <img
               :src="currentBadge"
               v-if="$themeConfig.titleBadge === false ? false : true"
             />
             {{this.$page.title}}
-          </h1>
+          </h2>
           <slot name="top" v-if="isShowSlotT" />
 
           <Content class="theme-vdoing-content" />
@@ -127,7 +127,9 @@ export default {
 .theme-vdoing-wrapper
   .content-wrapper
     position relative
-  h1 img
+  h2 
+    margin 0 
+  h2 img
     margin-bottom -0.2rem
     max-width 2.2rem
     max-height 2.2rem

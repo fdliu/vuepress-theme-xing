@@ -17,50 +17,50 @@ module.exports = {
       { text: '主页', link: '/' },
       {
         text: '技术篇',
-        link: '/skill/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: '/pages/skill/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           { text: '技术文档',
             link: '/skill/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
             items: [
-              {text: '帮助', link: '/skill/a' }
+              {text: '帮助', link: '/pages/javascript/' }
             ]
           },
         ],
       },
       {
         text: '生活篇',
-        link: '/exist/',
+        link: '/pages/exist/',
         items: [
-          { text: '穷忙的人生', link: '/exist/02.poorBusy' },
-          { text: '那些无用的人', link: '/exist/03.useLess' },
-          { text: '技术的进步迫使暴力犯罪越来越少', link: '/exist/05.tecProgress' },
-          { text: '长大后自卑的孩子，大多出自这几种家庭，别不当回事', link: '/exist/01.homeEducation' },
-          { text: '能用钱解决的问题，不要花宝贵的时间', link: '/exist/06.timeAndMoney' },
-          { text: '办公室主导的工作场所将在十年内结束', link: '/exist/04.remoteWork' },
+          { text: '穷忙的人生', link: '/pages/poorBusy/' },
+          { text: '那些无用的人', link: '/pages/useLess/' },
+          { text: '技术的进步迫使暴力犯罪越来越少', link: '/pages/tecProgress/' },
+          { text: '长大后自卑的孩子，大多出自这几种家庭，别不当回事', link: '/pages/homeEducation/' },
+          { text: '能用钱解决的问题，不要花宝贵的时间', link: '/pages/timeAndMoney/' },
+          { text: '办公室主导的工作场所将在十年内结束', link: '/pages/remoteWork/' },
         ],
       },
       {
         text: '读书清单',
-        link: '/readList/',
+        link: '/pages/readme/',
         items: [
-          { text: '技术文档', link: 'readList/a' },
+          { text: '技术文档', link: '/pages/markdown/' },
+          { text: '读我', link: '/pages/readme/' },
         ],
       },
       {
         text: '网站',
-        link: '/more/',
+        link: '/pages/website/',
         items: [
-          { text: '学习', link: 'website/a' },
-          { text: 'markDown', link: '/website/markDown' },
+          { text: '学习', link: '/pages/website/' },
         ],
       },
       { text: 'CSDN', link: 'https://blog.csdn.net/qq_35876316?type=blog' },
-      { text: '关于', link: '/about/' },
+      { text: '关于', link: '/pages/about/' },
       { text: 'Github', link: 'https://github.com/fdliu/vuepress-theme-xing' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/xing.png', // 导航栏logo
-    // repo: 'fdliu/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    // repo: 'fdliu/vuepress-theme-xing', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹

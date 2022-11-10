@@ -2,7 +2,7 @@
 * 案例1：[知识库兼博客站](https://fdliu.com/)
 * 案例2：[仅博客站](https://fdliu.github.io/vdoing-demo-blog/)
 * 案例3：[仅知识库](https://fdliu.github.io/vdoing-demo-repository/)
-* 案例4：[文档站](https://fdliu.github.io/vuepress-theme-vdoing-doc/)
+* 案例4：[文档站](https://fdliu.github.io/vuepress-theme-xing-doc/)
 
 
 ## 快速上手

@@ -102,7 +102,7 @@ a.sidebar-link
   font-weight 400
   display inline-block
   color var(--textColor)
-  border-left 0.25rem solid transparent
+  border-right 0.25rem solid transparent
   padding 0.35rem 1rem 0.35rem 1.25rem
   line-height 1.4
   width 100%
@@ -112,7 +112,7 @@ a.sidebar-link
   &.active
     font-weight 600
     color $accentColor
-    border-left-color $accentColor
+    border-right-color $accentColor
   .sidebar-group &
     padding-left 2rem
   .sidebar-sub-headers &

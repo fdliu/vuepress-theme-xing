@@ -1,7 +1,7 @@
 ---
 title: README
 date: 2021-12-17 14:59:30
-permalink: /pages/d2a2d6/
+permalink: /pages/about/
 categories:
   - about
 tags:

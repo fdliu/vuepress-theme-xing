@@ -1,7 +1,7 @@
 ---
 title: a
 date: 2021-12-17 14:59:30
-permalink: /pages/961b62/
+permalink: /pages/javascript/
 categories:
   - skill
 tags:

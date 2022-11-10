@@ -464,28 +464,28 @@ export default {
           &.active
             opacity 0.5
   // 分页不在第一页时，隐藏banner栏
-  .banner.hide-banner
-    display none
-    & + .main-wrapper
-      margin-top: ($navbarHeight + 0.9rem)
-  .main-wrapper
-    margin-top 2rem
-    .main-left
-      .card-box
-        margin-bottom 0.9rem
-      .pagination
-        margin-bottom 4rem
-      .theme-vdoing-content
-        padding 0 2rem
-        overflow hidden
-        &>:first-child
-          padding-top 2rem
-        &>:last-child
-          padding-bottom 2rem
-    .main-right
-      .custom-html-box
-        padding 0
-        overflow hidden
+  // .banner.hide-banner
+  //   display none
+  //   & + .main-wrapper
+  //     margin-top: ($navbarHeight + 0.9rem)
+  // .main-wrapper
+  //   margin-top 2rem
+  //   .main-left
+  //     .card-box
+  //       margin-bottom 0.9rem
+  //     .pagination
+  //       margin-bottom 4rem
+  //     .theme-vdoing-content
+  //       padding 0 2rem
+  //       overflow hidden
+  //       &>:first-child
+  //         padding-top 2rem
+  //       &>:last-child
+  //         padding-bottom 2rem
+  //   .main-right
+  //     .custom-html-box
+  //       padding 0
+  //       overflow hidden
 @keyframes heart
   from
     transform translate(0, 0)

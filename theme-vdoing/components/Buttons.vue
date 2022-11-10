@@ -212,9 +212,9 @@ export default {
     right 1rem
     bottom 1.5rem
   .button
-    width 2.2rem
-    height 2.2rem
-    line-height 2.2rem
+    width 3.2rem
+    height 3.2rem
+    line-height 3.2rem
     border-radius 50%
     box-shadow 0 2px 6px rgba(0, 0, 0, 0.15)
     margin-top 0.9rem
@@ -237,8 +237,8 @@ export default {
       margin 0
       padding 0.8rem 0
       position absolute
-      bottom 0rem
-      right 1.5rem
+      bottom 0
+      left 3.2rem
       background var(--mainBg)
       border 1px solid var(--borderColor)
       width 120px

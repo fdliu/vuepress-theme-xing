@@ -1,7 +1,7 @@
 ---
 title: README
 date: 2021-12-17 14:59:30
-permalink: /pages/c0a868/
+permalink: /pages/readme/
 categories:
   - readList
 tags:

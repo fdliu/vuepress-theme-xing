@@ -178,6 +178,7 @@ export default {
     font-size 0.95rem
     &.disabled
       color rgba(125, 125, 125, 0.5)
+      cursor not-allowed
     &.prev
       left 0
       border-top-right-radius 32px

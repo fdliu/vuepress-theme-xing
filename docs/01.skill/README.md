@@ -1,7 +1,7 @@
 ---
 title: README
 date: 2021-12-17 14:59:30
-permalink: /pages/c80423/
+permalink: /pages/skill/
 categories:
   - skill
 tags:
@@ -10,11 +10,11 @@ tags:
 
 ::: tip <font face="微软雅黑" color="#ea163f" size="4">技能篇</font>
 
-[几种前端数据存储方式（记录）](/skill/)<br/>
+[几种前端数据存储方式（记录）](/page/webStore/)<br/>
 
-[初识indexedDB数据库](/exist/)<br/>
+[初识indexedDB数据库](/skill/)<br/>
 
-[javaScript高阶函数map、reduce、sort](/readList/)<br/>
+[javaScript高阶函数map、reduce、sort](/skill/)<br/>
 
 [深入理解 ES6中的 Reflect](/skill/)<br/>
 
