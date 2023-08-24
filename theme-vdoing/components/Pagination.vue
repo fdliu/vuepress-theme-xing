@@ -200,7 +200,6 @@ export default {
       height 2.5rem
       line-height 2.5rem
       margin 0.3rem
-      border-radius 50%
       &.active
         background $accentColor
         color var(--mainBg)
