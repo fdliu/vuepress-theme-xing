@@ -1,0 +1,65 @@
+Arguments: 
+  D:\Program Files\node.exe C:\Users\AOC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Bandizip\;D:\Program Files\;C:\Users\AOC\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\AOC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\AOC\AppData\Local\BypassRuntm;flutter\bin;C:\Program Files (x86)\Tencent\QQGameTempest\Hall.57702\;C:\Users\AOC\AppData\Roaming\npm;C:\Users\AOC\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmmirror.com/date-fns/-/date-fns-2.16.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\AOC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:628:28)
+      at ClientRequest.emit (node:events:514:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:847:9)
+      at Object.onceWrapper (node:events:628:28)
+      at TLSSocket.emit (node:events:526:35)
+      at Socket._onTimeout (node:net:571:8)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7)
+
+npm manifest: 
+  {
+    "name": "theme-vdoing-blog",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "vuepress dev docs --temp .temp",
+      "build": "vuepress build docs",
+      "deploy": "bash deploy.sh",
+      "editFm": "node utils/editFrontmatter.js",
+      "baiduPush": "node utils/baiduPush.js https://fdliu.com && bash baiduPush.sh",
+      "publish": "cd ./theme-vdoing && npm publish && cd .. && yarn updateTheme",
+      "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "dayjs": "^1.9.7",
+      "inquirer": "^7.1.0",
+      "json2yaml": "^1.1.0",
+      "vuepress": "1.8.0",
+      "vuepress-plugin-baidu-autopush": "^1.0.1",
+      "vuepress-plugin-baidu-tongji": "^1.0.1",
+      "vuepress-plugin-demo-block": "^0.7.2",
+      "vuepress-plugin-one-click-copy": "^1.0.2",
+      "vuepress-plugin-thirdparty-search": "^1.0.2",
+      "vuepress-plugin-zooming": "^1.1.7",
+      "vuepress-theme-vdoing": "^1.8.6",
+      "yamljs": "^0.3.0"
+    },
+    "dependencies": {
+      "vuepress-plugin-comment": "^0.7.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
